@@ -7,13 +7,13 @@ html {
 }
 body {
 	margin: 0;
-	background-color: lightgray;
+	background-color: white;
 }
 ul {
-  max-width: 512px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
-  list-style:none;
+  list-style: none;
 }
 
 li {
@@ -49,7 +49,7 @@ a {
 	align-items: center;
 	justify-content: space-between;
 	min-height: 44px;
-	width: 90%;
+	width: 960px;
 	margin: 0 auto;
 	border-bottom: 1px solid #333;
 	position: sticky;
@@ -84,7 +84,7 @@ a {
 	width: 100%;
 	background-color: #fff;
 	margin: 0 auto;
-	outline: 1px solid blue;
+	
 }
 
 .spanCheck{
@@ -98,6 +98,7 @@ a {
 	margin-left: 16px;
 }
 .mainBottom {
+	/*outline: 1px dashed;*/
 	padding-top: 80px;
 	padding-bottom: 40px;
 	font-size: 14px;
@@ -106,11 +107,29 @@ a {
 .June {
 	padding-bottom: 16px;
 }
-.mainBottom .svgDlbr {
+.svgDlbr {
 	width: 24px;
-   height: auto;
+   height: 24px;
    margin-right: 16px;
+  transform: translateY(6px);
 }
 .span {
 	margin-left: 16px;
+	font-size: 14px;
+}
+
+.log {
+	padding-top: 4px;
+	padding-bottom: 8px;
+	/*outline: 1px dashed tomato;*/
+	display: flex;
+	min-height: 48px;
+	align-items: baseline;
+	border-bottom: 1px solid black;
+}
+.log:last-child {
+	border-bottom: none;
+}
+.logTxt {
+	flex: 1;
 }
