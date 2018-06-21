@@ -1,0 +1,116 @@
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+html { 
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	margin: 0;
+	background-color: lightgray;
+}
+ul {
+  max-width: 512px;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style:none;
+}
+
+li {
+  border-bottom: 1px solid tomato;
+  display: flex;
+  padding: 8px;
+}
+li:last-child {
+  border: none;
+}
+
+
+li div {
+  flex: 1;
+ padding: 0 16px;
+}
+a {
+	font-size: 14px;
+	color: gray;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 912px;
+	height: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 44px;
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #333;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+}
+.nav .navLeft,
+.nav .navRight {
+	font-size: 12px;
+	font-weight: 600;
+	margin: 32px;
+}
+.nav .navRight {
+	display: flex;
+	margin: 32px;	
+}
+.edit{
+	margin-right: 32px;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.containerMain,
+.mainBottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 512px;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	outline: 1px solid blue;
+}
+
+.spanCheck{
+	margin-top: 16px;
+	font-size: 14px;
+	color: #333;
+	display: flex;
+	justify-content: flex-end;
+}
+.svgAdd {
+	margin-left: 16px;
+}
+.mainBottom {
+	padding-top: 80px;
+	padding-bottom: 40px;
+	font-size: 14px;
+	color: #333;
+}
+.June {
+	padding-bottom: 16px;
+}
+.mainBottom .svgDlbr {
+	width: 24px;
+   height: auto;
+   margin-right: 16px;
+}
+.span {
+	margin-left: 16px;
+}
